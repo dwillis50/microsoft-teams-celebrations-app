@@ -150,6 +150,7 @@ namespace Microsoft.Teams.Apps.Celebration
                 {
                     Tuple.Create(EventTypes.Birthday, Strings.BirthdayEventTypeName),
                     Tuple.Create(EventTypes.Anniversary, Strings.AnniversaryEventTypeName),
+                    Tuple.Create(EventTypes.Holiday, Strings.HolidayEventTypeName),
                     Tuple.Create(EventTypes.Other, Strings.OtherEventTypeName),
                 },
             };

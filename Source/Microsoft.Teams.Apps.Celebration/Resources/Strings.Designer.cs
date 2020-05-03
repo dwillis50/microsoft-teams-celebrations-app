@@ -61,7 +61,7 @@ namespace Microsoft.Teams.Apps.Celebration.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Anniversary.
+        ///   Looks up a localized string similar to Work Anniversary.
         /// </summary>
         internal static string AnniversaryEventTypeName {
             get {
@@ -156,6 +156,15 @@ namespace Microsoft.Teams.Apps.Celebration.Resources {
         internal static string GetStartedButtonText {
             get {
                 return ResourceManager.GetString("GetStartedButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Holiday.
+        /// </summary>
+        internal static string HolidayEventTypeName {
+            get {
+                return ResourceManager.GetString("HolidayEventTypeName", resourceCulture);
             }
         }
         

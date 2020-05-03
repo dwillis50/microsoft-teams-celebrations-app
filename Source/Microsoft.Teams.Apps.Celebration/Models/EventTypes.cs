@@ -23,5 +23,10 @@ namespace Microsoft.Teams.Apps.Celebration.Models
         /// Anniversary
         /// </summary>
         Anniversary,
+
+        /// <summary>
+        /// Holiday
+        /// </summary>
+        Holiday
     }
 }
